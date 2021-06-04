@@ -60,6 +60,16 @@
     "category": {
       "via": "articles",
       "model": "category"
+    },
+    "blogs": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "content.blog"
     }
   }
 }
